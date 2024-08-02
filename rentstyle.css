@@ -1,0 +1,14 @@
+body {
+    background-image: url('OIP.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+label{
+    color:aliceblue
+}
+h2{
+    color:antiquewhite
+}
+p{
+    color: aliceblue;
+}

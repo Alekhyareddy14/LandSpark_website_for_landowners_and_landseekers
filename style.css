@@ -1,0 +1,58 @@
+body {
+    background-image: url('OIP.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+  }
+  
+  h2 {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: lavenderblush;
+  }
+  
+  label {
+    color: aliceblue;
+  }
+  
+  .text-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-container h1 {
+    margin: 0;
+    font-size: 150px;
+    color: rgba(255, 255, 255, 0.01); /* Corrected the color value */
+    background-image: url("afghanistan.jpeg"); /* Make sure "jig.webp" exists in the same directory */
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 15s ease-in-out infinite;
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  @keyframes animate {
+    0%, 100% {
+      background-position: left top;
+    }
+    25% {
+      background-position: right bottom;
+    }
+    50% {
+      background-position: left bottom;
+    }
+    75% {
+      background-position: right top;
+    }
+  }
+  

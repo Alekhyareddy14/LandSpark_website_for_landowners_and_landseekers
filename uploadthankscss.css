@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #003366;
+  overflow: hidden;
+}
+
+.pyro > .before, .pyro > .after {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+  animation: 1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards;
+}
+
+.pyro > .after {
+  animation-delay: 1.25s, 1.25s, 1.25s;
+  animation-duration: 1.25s, 1.25s, 6.25s;
+}
+@keyframes bang {
+  to {
+    box-shadow: 25px -262.3333333333px hsl(120, 100%, 50%), -115px -211.3333333333px hsl(287, 100%, 50%), 137px -183.3333333333px hsl(211, 100%, 50%), 8px -187.3333333333px hsl(315, 100%, 50%), -64px -215.3333333333px hsl(53, 100%, 50%), 212px -50.3333333333px hsl(345, 100%, 50%), -219px -223.3333333333px hsl(179, 100%, 50%), 228px 24.6666666667px hsl(216, 100%, 50%), 131px -234.3333333333px hsl(228, 100%, 50%), -123px -173.3333333333px hsl(279, 100%, 50%), -33px -59.3333333333px hsl(101, 100%, 50%), 233px -288.3333333333px hsl(147, 100%, 50%), -191px 50.6666666667px hsl(205, 100%, 50%), 136px -138.3333333333px hsl(95, 100%, 50%), 213px -287.3333333333px hsl(123, 100%, 50%), -137px -268.3333333333px hsl(155, 100%, 50%), -227px 55.6666666667px hsl(99, 100%, 50%), 209px -197.3333333333px hsl(344, 100%, 50%), -116px -45.3333333333px hsl(161, 100%, 50%), -174px -261.3333333333px hsl(307, 100%, 50%), -52px -42.3333333333px hsl(93, 100%, 50%), 41px -195.3333333333px hsl(288, 100%, 50%), -137px -49.3333333333px hsl(73, 100%, 50%), -59px -32.3333333333px hsl(65, 100%, 50%), -183px -320.3333333333px hsl(81, 100%, 50%), -170px -72.3333333333px hsl(147, 100%, 50%), 44px -201.3333333333px hsl(31, 100%, 50%), 218px -90.3333333333px hsl(283, 100%, 50%), -245px -69.3333333333px hsl(358, 100%, 50%), -232px -110.3333333333px hsl(166, 100%, 50%), -96px 45.6666666667px hsl(163, 100%, 50%), 76px -165.3333333333px hsl(217, 100%, 50%), 202px -127.3333333333px hsl(174, 100%, 50%), 219px 66.6666666667px hsl(312, 100%, 50%), -105px 34.6666666667px hsl(150, 100%, 50%), 153px -159.3333333333px hsl(359, 100%, 50%), 197px -128.3333333333px hsl(104, 100%, 50%), -94px -320.3333333333px hsl(325, 100%, 50%), 241px -307.3333333333px hsl(89, 100%, 50%), 175px 64.6666666667px hsl(194, 100%, 50%), -125px -27.3333333333px hsl(327, 100%, 50%), 195px -254.3333333333px hsl(24, 100%, 50%), 156px -98.3333333333px hsl(279, 100%, 50%), 68px -206.3333333333px hsl(274, 100%, 50%), 193px -64.3333333333px hsl(118, 100%, 50%), -121px -141.3333333333px hsl(162, 100%, 50%), -206px -300.3333333333px hsl(297, 100%, 50%), -243px -46.3333333333px hsl(253, 100%, 50%), -62px -257.3333333333px hsl(111, 100%, 50%), 45px -84.3333333333px hsl(103, 100%, 50%), -68px -70.3333333333px hsl(216, 100%, 50%), 3px -40.3333333333px hsl(130, 100%, 50%), 143px -172.3333333333px hsl(135, 100%, 50%), -126px -80.3333333333px hsl(142, 100%, 50%), 72px -132.3333333333px hsl(272, 100%, 50%), 35px -330.3333333333px hsl(14, 100%, 50%), -12px 0.6666666667px hsl(231, 100%, 50%), -188px 55.6666666667px hsl(136, 100%, 50%), -173px -157.3333333333px hsl(326, 100%, 50%), 244px 59.6666666667px hsl(59, 100%, 50%), 140px 37.6666666667px hsl(339, 100%, 50%);
+  }
+}
+@keyframes gravity {
+  to {
+    transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    -webkit-transform: translateY(200px);
+    -o-transform: translateY(200px);
+    -ms-transform: translateY(200px);
+    opacity: 0;
+  }
+}
+@keyframes position {
+  0%, 19.9% {
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  20%, 39.9% {
+    margin-top: 40%;
+    margin-left: 30%;
+  }
+  40%, 59.9% {
+    margin-top: 20%;
+    margin-left: 70%;
+  }
+  60%, 79.9% {
+    margin-top: 30%;
+    margin-left: 20%;
+  }
+  80%, 99.9% {
+    margin-top: 30%;
+    margin-left: 80%;
+  }
+}/*# sourceMappingURL=uploadthankscss.css.map */
